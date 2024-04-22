@@ -44,3 +44,62 @@
       padding: 10px 0;
     }
   </style>
+</head>
+<body>
+
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to Philippines Tourism</h1>
+      <p class="lead">Discover the beauty of the Philippines</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?boracay" class="card-img-top" alt="Boracay">
+          <div class="card-body">
+            <h5 class="card-title">Boracay</h5>
+            <p class="card-text">Experience the stunning beaches and vibrant nightlife of Boracay.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?palawan" class="card-img-top" alt="Palawan">
+          <div class="card-body">
+            <h5 class="card-title">Palawan</h5>
+            <p class="card-text">Explore the pristine beaches and breathtaking landscapes of Palawan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?rice-terraces" class="card-img-top" alt="Banaue Rice Terraces">
+          <div class="card-body">
+            <h5 class="card-title">Banaue Rice Terraces</h5>
+            <p class="card-text">Visit the magnificent Banaue Rice Terraces, a UNESCO World Heritage Site.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Philippines Tourism | Author: Rose</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and jQuery (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Script to update year in footer -->
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>
